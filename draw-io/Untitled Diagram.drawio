@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="VX3iC5EDTyKNFHSvkUT_">
-    <mxGraphModel>
+    <mxGraphModel dx="1678" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-3" value="Redis - session store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-4" value="Prisma ORM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-7" target="in8Sy7QU9RQO7cuSoBUc-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-7" value="IDP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-8" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-9" value="Validate data with SHACL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1069" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-10" target="in8Sy7QU9RQO7cuSoBUc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-10" target="in8Sy7QU9RQO7cuSoBUc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-10" value="SHACL schemas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1069" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-14" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-15" value="Local login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-16" target="in8Sy7QU9RQO7cuSoBUc-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="520" />
+              <mxPoint x="480" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-16" value="Token / session management (Redis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-17" value="Solid OIDCS support" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-18" value="Token refresh &amp;amp; encrypted storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-19" target="in8Sy7QU9RQO7cuSoBUc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-19" value="Solid Client" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-20" value="Registration with Solid IDP&#39;s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-21" value="access token management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-23" value="Consent" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-24" value="storage of per-app, per-scope consent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-25" value="Consent management api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340.5" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-26" target="in8Sy7QU9RQO7cuSoBUc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-26" value="Consent validation api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340.5" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-27" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-28" value="Fetch data (after validating consent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-29" target="in8Sy7QU9RQO7cuSoBUc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-29" value="Log access" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="500" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-30" value="Apply transformations?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-31" value="Data CRUD api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-32" value="Billing" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-34" value="Generate invoices / usage reports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-44" value="SQLite database (should later become PostgreSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
