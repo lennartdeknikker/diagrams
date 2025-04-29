@@ -42,7 +42,7 @@
             <mxPoint x="480" y="860" as="targetPoint" />
             <Array as="points">
               <mxPoint x="480" y="520" />
-              <mxPoint x="480" y="820" />
+              <mxPoint x="480" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -85,17 +85,27 @@
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-27" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="500" y="720" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-28" target="in8Sy7QU9RQO7cuSoBUc-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-28" value="Fetch data (after validating consent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-29" target="in8Sy7QU9RQO7cuSoBUc-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-29" value="Log access" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="500" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-30" value="Apply transformations?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in8Sy7QU9RQO7cuSoBUc-31" target="in8Sy7QU9RQO7cuSoBUc-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-31" value="Data CRUD api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1000" width="120" height="60" as="geometry" />
@@ -108,6 +118,9 @@
         </mxCell>
         <mxCell id="in8Sy7QU9RQO7cuSoBUc-44" value="SQLite database (should later become PostgreSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="40" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="in8Sy7QU9RQO7cuSoBUc-51" value="Pod storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
